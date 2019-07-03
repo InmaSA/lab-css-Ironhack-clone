@@ -1,0 +1,77 @@
+/*------ GENERAL STYLING -------*/
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*--------HERO STYLING -----*/
+
+
+.hero {
+  color: #fff;
+  margin: 0 300px;
+  background-image: url(../images/download.svg);
+  background-repeat:no-repeat;
+  background-position-y: -540px;
+  text-align: center;
+
+}
+
+.hero h1 {
+  font-size: 4em;
+  letter-spacing: 5px;
+  margin: 0 100px;
+}
+
+.hero h2 {
+  margin: 15px 340px; 
+}
+.hero span {
+  color: #32c3ff;
+}
+
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin: auto 30px;
+}
+
+.nav {
+  width: 850px;
+
+}
+.nav ul {
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul img {
+  width: 50%;
+}
+
+.image-minilogo {
+  width: 60%;
+}
+
+.cursos-button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  background-color:  #32c3ff; 
+  padding: 20px 125px;
+  border-radius: 5px;
+  display: block;
+  margin: 50px 450px;;
+}
+
+footer>h2 {
+  color: rgba(45,53,76,.4);
+  font-size: 0.9em;
+  font-weight: lighter;
+}
